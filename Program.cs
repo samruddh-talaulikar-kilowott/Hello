@@ -12,7 +12,7 @@ namespace Hello
         {
             Console.WriteLine("Hello from Program.cs\n");
 
-            Stats.ShowOutput();
+            Stats.MeanMedianMode();
         }
     }
 }
