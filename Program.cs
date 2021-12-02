@@ -1,5 +1,4 @@
-﻿Console.WriteLine("This is the first line.");
-
-Console.Write("This is ");
-Console.Write("the second ");
-Console.Write("line.");
+﻿
+int fahrenheit = 94;
+decimal celsius = (fahrenheit - 32m) * (5m / 9m);
+Console.WriteLine("The temperature is " + celsius + " Celsius.");
