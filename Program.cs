@@ -1,5 +1,8 @@
-﻿Console.WriteLine("This is the first line.");
-
-Console.Write("This is ");
-Console.Write("the second ");
-Console.Write("line.");
+﻿
+int firstValue = 500;
+int secondValue = 600;
+int largerValue,smallervalue;
+largerValue = Math.Max(firstValue, secondValue);
+smallervalue = Math.Min(firstValue, secondValue);
+Console.WriteLine(largerValue);
+Console.WriteLine(smallervalue);
