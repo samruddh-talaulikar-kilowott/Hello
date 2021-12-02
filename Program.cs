@@ -1,5 +1,25 @@
-﻿Console.WriteLine("This is the first line.");
+﻿/*
+   This code reverses a message, counts the number of times 
+   a particular character appears, then prints the results
+   to the console window.
+ */
+string originalMessage = "Hello there, My name is Samruddh " +
+    "and i work at Kilowott, Goa.";
 
-Console.Write("This is ");
-Console.Write("the second ");
-Console.Write("line.");
+char[] message = originalMessage.ToCharArray();
+Array.Reverse(message);
+
+int letterCount = 0;
+
+foreach (char letter in message)
+{
+    if (letter == 'o')
+    {
+        letterCount++;
+    }
+}
+
+string newMessage = new String(message);
+
+Console.WriteLine(newMessage);
+Console.WriteLine($"'o' appears {letterCount} times.");
