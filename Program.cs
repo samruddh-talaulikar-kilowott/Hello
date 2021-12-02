@@ -1,18 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿Console.WriteLine("This is the first line.");
 
-namespace Hello
-{
-    internal class Program
-    {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine("Hello from Program.cs\n");
-
-            Stats.ShowOutput();
-        }
-    }
-}
+Console.Write("This is ");
+Console.Write("the second ");
+Console.Write("line.");
